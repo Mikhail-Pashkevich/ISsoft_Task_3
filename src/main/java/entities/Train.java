@@ -1,6 +1,5 @@
 package entities;
 
-import entities.carriages.Carriage;
 import entities.carriages.LocomotiveCarriage;
 import lombok.Getter;
 import lombok.Setter;

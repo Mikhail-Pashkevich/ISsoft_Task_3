@@ -10,7 +10,7 @@ import lombok.ToString;
 public class User {
     private final String firstName;
     private final String lastName;
-    private  int age;
+    private int age;
 
     public User(String firstName, String lastName, int age) {
         this.firstName = firstName;

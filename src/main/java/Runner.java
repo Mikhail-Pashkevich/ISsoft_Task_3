@@ -1,7 +1,5 @@
 import entities.Cargo;
-import entities.Train;
 import entities.carriages.CargoCarriage;
-import entities.carriages.Carriage;
 import entities.carriages.LocomotiveCarriage;
 import entities.carriages.PassengerCarriage;
 import entities.users.Passenger;
@@ -31,10 +29,10 @@ public class Runner {
 
         System.out.println(trainBuilder.getTrain().toString());
 
-        PassengerCarriage next1 =(PassengerCarriage) trainBuilder.getTrain().getMainLocomotive().getNext();
+        PassengerCarriage next1 = (PassengerCarriage) trainBuilder.getTrain().getMainLocomotive().getNext();
         System.out.println(next1.toString());
 
-        CargoCarriage next2=(CargoCarriage) trainBuilder.getTrain().getMainLocomotive().getNext().getNext();
+        CargoCarriage next2 = (CargoCarriage) trainBuilder.getTrain().getMainLocomotive().getNext().getNext();
         System.out.println(next2.toString());
     }
 }
